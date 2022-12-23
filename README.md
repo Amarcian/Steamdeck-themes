@@ -1,5 +1,5 @@
 # Steamdeck-themes
-This repository contains various themes that I created for use with suchmememanyskill's Steam Deck CSS loader. Many of these themes are smaller components that can be mixed and matches
+This repository contains various themes that I created for use with suchmememanyskill's Steam Deck CSS loader. Many of these themes are smaller components that can be mixed and matched
 
 ## Installation
 
