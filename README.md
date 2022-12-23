@@ -9,7 +9,7 @@ This repository contains various themes that I created for use with suchmememany
 1. Install the [CSS Loader plugin](https://github.com/suchmememanyskill/SDH-CssLoader).
 1. Choose a theme installation method below.
 
-### Using the Theme Manager
+## Using the Theme Manager
 
 1. Open the Plugins section in the Quick Access menu.
 1. Open the CSS Loader plugin.
@@ -20,7 +20,7 @@ This repository contains various themes that I created for use with suchmememany
 1. Return to the CSS Loader plugin.
 1. Enable your desired theme(s).
 
-### Manually Adding Themes
+## Manually Adding Themes
 
 1. Hold the power button and select Switch to Desktop.
 1. Download this repository.
