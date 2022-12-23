@@ -26,7 +26,7 @@ This repository contains various themes that I created for use with suchmememany
 1. Download this repository.
 1. Open a file browser.
 1. Navigate to `/home/deck/homebrew/themes`.
-1. Copy the desired folder(s) from this repository (ex. `Obsidian`) into the `themes` folder. You do not need to copy the `resources` folder.
+1. Copy the desired folder into the `themes` folder.
 1. Select Return to Gaming Mode on the desktop.
 1. Open the Plugins section in the Quick Access menu.
 1. Open the CSS Loader plugin.
