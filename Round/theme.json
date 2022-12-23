@@ -1,0 +1,58 @@
+{
+  "name": "Round",
+  "description": "This theme adds round edges to any image that can reasonably have them. Certain images like achievements, trading cards, and profile pictures have been left as-is to avoid removing any detail. Anything largely rectangular or difficult to round (ex. sets of buttons, chat, header) has also been left as-is.",
+  "author": "Fushigiidane",
+  "target": "System-Wide",
+  "version": "v2.2",
+  "manifest_version": 2,
+  "inject": {
+    "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  },
+  "patches": {
+    "Intensity": {
+      "default": "10px",
+      "type": "slider",
+      "values": {
+        "3px": { "intensity/3px.css": ["SP", "MainMenu", "QuickAccess"] },
+        "5px": { "intensity/5px.css": ["SP", "MainMenu", "QuickAccess"] },
+        "10px": { "intensity/10px.css": ["SP", "MainMenu", "QuickAccess"] },
+        "15px": { "intensity/15px.css": ["SP", "MainMenu", "QuickAccess"] },
+        "20px": { "intensity/20px.css": ["SP", "MainMenu", "QuickAccess"] },
+        "30px": { "intensity/30px.css": ["SP", "MainMenu", "QuickAccess"] }
+      }
+    },
+    "Outlines": {
+      "default": "Round",
+      "type": "dropdown",
+      "values": {
+        "Round": { "round-outline.css": ["SP", "MainMenu", "QuickAccess"] },
+        "Square": {},
+        "Hidden": { "hide-outline.css": ["SP", "MainMenu", "QuickAccess"] }
+      }
+    }
+  }
+}
+
+{
+	"name": "Rounded Keyboard",
+	"version": "v2.0",
+	"target": "Keyboard",
+	"author": "CootMoon",
+	"inject": {
+		"shared.css": ["SP"]
+	},
+	"patches": {
+		"Size": {
+			"default": "10px",
+			"1px": { "size/1px.css": ["SP"] },
+			"2.5px": { "size/2.5px.css": ["SP"] },
+			"5px": { "size/5px.css": ["SP"] },
+			"7.5px": { "size/7.5px.css": ["SP"] },
+			"10px": { "size/10px.css": ["SP"] },
+			"12.5px": { "size/12.5px.css": ["SP"] },
+			"15px": { "size/15px.css": ["SP"] },
+			"17.5px": { "size/17.5px.css": ["SP"] },
+			"20px": { "size/20px.css": ["SP"] }
+		}
+	}
+}
